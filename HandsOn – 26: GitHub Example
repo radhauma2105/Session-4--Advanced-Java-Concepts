@@ -1,0 +1,13 @@
+Signup :https://github.com
+
+create a new repository on the command line
+
+Follow the below commands in terminal after adding content to VS code.
+
+echo "# h" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/radhauma/h.git
+git push -u origin main
